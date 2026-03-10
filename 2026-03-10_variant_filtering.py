@@ -10,16 +10,6 @@ Annotations include:
  - Notes on performance, scaling, and reproducibility
  - Suggestions for additional QC steps and unit tests
 
-Keep in mind:
- - Comments and docstrings do not change runtime behavior (they are ignored by Python).
- - Where behaviour may be ambiguous (missing fields in VCF, nonstandard FORMAT tags),
-   the code attempts to handle common cases but you should validate your VCF beforehand
-   (e.g., using bcftools, GATK ValidateVariants, or a small script to check FORMAT tags).
-
-Author: Annotated by ChatGPT for jgdaniel1063
-Date: 2026-03-10 (provided in chat)
-"""
-
 # ===================================================================
 # STANDARD LIBRARY IMPORTS
 # ===================================================================
