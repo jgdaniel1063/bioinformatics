@@ -2,10 +2,6 @@
 """
 SNP Density Ideogram — Zebrafish (Danio rerio, GRCz11) — Annotated
 =================================================================
-This is your original SNP density ideogram generator with heavy, line-by-line
-and block-level annotations added. The goal is to make the script easier to
-understand, maintain, validate, and extend.
-
 What this script does (summary)
 - Parses a VCF (gzipped or plain text) and collects heterozygous variant
   positions per sample (GT-based).
